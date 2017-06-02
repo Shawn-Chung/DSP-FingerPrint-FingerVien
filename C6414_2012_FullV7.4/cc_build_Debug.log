@@ -1,0 +1,9 @@
+------------------------  C6414_2012_Full.pjt - Debug  ------------------------
+"c:\ti\c6000\cgtools\bin\cl6x" -g -q -fr"C:/ti/myprojects/C6414_2012_Full/Debug" -d"CHIP_6414" -ml3 -mv6400 -@"Debug.lkf" "main.c"
+"main.c", line 136: warning: statement is unreachable
+"main.c", line 11: warning: variable "i" was declared but never referenced
+
+"c:\ti\c6000\cgtools\bin\cl6x" -@"Debug.lkf"
+
+Build Complete,
+  0 Errors, 2 Warnings, 0 Remarks.

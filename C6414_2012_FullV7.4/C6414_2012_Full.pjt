@@ -1,0 +1,72 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="C:\ti\myprojects\C6414_2012_Full\"
+ProjectType=Executable
+CPUFamily=TMS320C64XX
+Tool="Compiler"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="..\..\c6000\bios\lib\csl6414.lib"
+Source="bsp\bsp.c"
+Source="bsp\ds1302.c"
+Source="bsp\fifo_idt.c"
+Source="bsp\flash.c"
+Source="bsp\gt23l32s4w.c"
+Source="bsp\I2C_master.c"
+Source="bsp\iLCD.c"
+Source="bsp\oLCD.c"
+Source="bsp\sys_time.c"
+Source="bsp\z_camera.c"
+Source="bsp\zlg7290.c"
+Source="C6414_2012_Full.cdb"
+Source="dip\base_fun.c"
+Source="dip\image.c"
+Source="dip\image_acquisition.c"
+Source="dip\image_base.c"
+Source="dip\image_enhance_filter.c"
+Source="dip\image_feature.c"
+Source="dip\image_matching.c"
+Source="dip\image_miscellaneous.c"
+Source="dip\image_processing.c"
+Source="dip\image_segment.c"
+Source="dip\image_thining.c"
+Source="GUI\GUI.c"
+Source="GUI\GUI_input.c"
+Source="GUI\GUI_menu.c"
+Source="GUI\GUI_password.c"
+Source="GUI\GUI_text.c"
+Source="GUI\t9_input.c"
+Source="main.c"
+Source="sys\sys_global.c"
+Source="sys\sys_manager.c"
+Source="sys\sys_reg_rec.c"
+Source="sys\sys_user.c"
+Source="C6414_EXT.cmd"
+
+[Generated Files]
+Source="C6414_2012_Fullcfg.s62"
+Source="C6414_2012_Fullcfg_c.c"
+
+["Compiler" Settings: "Debug"]
+Options=-g -q -fr"C:\ti\myprojects\C6414_2012_Full\Debug" -d"CHIP_6414" -ml3 -mv6400
+
+["Compiler" Settings: "Release"]
+Options=-q -o3 -fr"C:\ti\myprojects\C6414_2012_Full\Release" -mv6400
+
+["DspBiosBuilder" Settings: "Debug"]
+Options=-v6x
+
+["DspBiosBuilder" Settings: "Release"]
+Options=-v6x
+
+["Linker" Settings: "Debug"]
+Options=-q -c -m".\Debug\C6414_2012_Full.map" -o".\Debug\C6414_2012_Full.out" -w -x
+
+["Linker" Settings: "Release"]
+Options=-q -c -m".\Release\C6414_2012_Full.map" -o".\Release\C6414_2012_Full.out" -w -x
+

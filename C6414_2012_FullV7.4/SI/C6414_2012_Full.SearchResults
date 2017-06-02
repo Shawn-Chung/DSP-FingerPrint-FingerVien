@@ -1,0 +1,5 @@
+---- GetGradsAndOrientationFast Matches (4 in 3 files) ----
+Image_base.c (f:\graduation project\朱威——整理后的资料\程序\毕设主程序\c6414_2012_fullv7.4在前一基础上做了一些修改\dip):void GetGradsAndOrientationFast
+Image_base.h (f:\graduation project\朱威——整理后的资料\程序\毕设主程序\c6414_2012_fullv7.4在前一基础上做了一些修改\dip\dip_header):void GetGradsAndOrientationFast
+Image_processing.c (f:\graduation project\朱威——整理后的资料\程序\毕设主程序\c6414_2012_fullv7.4在前一基础上做了一些修改\dip):	GetGradsAndOrientationFast(imageGrads->pimg, imageOri->pimg, fp_src_copy.pimg, FP_WIDTH, FP_HEIGHT, FP_PITCH, grads_ori_size);
+Image_processing.c (f:\graduation project\朱威——整理后的资料\程序\毕设主程序\c6414_2012_fullv7.4在前一基础上做了一些修改\dip):	GetGradsAndOrientationFast(imageGrads->pimg, imageOri->pimg, fp_src_copy.pimg, FP_WIDTH, FP_HEIGHT, FP_PITCH, grads_ori_size);

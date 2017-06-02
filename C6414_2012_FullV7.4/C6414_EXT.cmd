@@ -1,0 +1,7 @@
+
+-l C6414_2012_Fullcfg.cmd
+
+SECTIONS
+{
+	DATABUF >   DATABUFFER
+}
